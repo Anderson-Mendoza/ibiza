@@ -23,6 +23,18 @@ const Home = () => {
             price: 89.99,
             image: 'url_de_imagen_chaqueta_cuero',
         },
+        {
+            id: 4,
+            name: 'Sudadera con Capucha',
+            price: 49.99,
+            image: 'url_de_imagen_sudadera_capucha',
+        },
+        {
+            id: 5,
+            name: 'Zapatos Deportivos',
+            price: 79.99,
+            image: 'url_de_imagen_zapatos_deportivos',
+        },
     ];
 
     return (
