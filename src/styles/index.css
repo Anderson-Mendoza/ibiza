@@ -1,68 +1,80 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
 }
 
-h1, h2, h3 {
-    color: #333;
+h1,
+h2,
+h3 {
+  color: #333;
 }
 
 a {
-    text-decoration: none;
-    color: #007bff;
+  text-decoration: none;
+  color: #007bff;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
+  background: #35424a;
+  color: #ffffff;
+  padding: 10px 0;
 }
 
 .footer {
-    background: #35424a;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .product-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 10px;
-    background: #ffffff;
-    transition: transform 0.2s;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  background: #ffffff;
+  transition: transform 0.2s;
+  box-sizing: border-box; /* Incluye padding y border en el tamaño */
+  width: calc(31%); /* Ajusta el ancho para tres columnas */
+  height: 300px; /* Ajusta la altura de las tarjetas */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .product-card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .product-image {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .product-name {
-    font-size: 1.2em;
-    margin: 10px 0;
+  font-size: 1.2em;
+  margin: 10px 0;
 }
 
 .product-price {
-    color: #28a745;
-    font-weight: bold;
+  color: #28a745;
+  font-weight: bold;
 }

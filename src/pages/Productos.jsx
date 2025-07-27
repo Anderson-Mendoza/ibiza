@@ -39,14 +39,39 @@ const Productos = () => {
             precio: 59.99,
             imagen: 'url_de_imagen_bolso_mano'
         },
+        {
+            id: 7,
+            nombre: 'Bolso de Mano',
+            precio: 59.99,
+            imagen: 'url_de_imagen_bolso_mano'
+        },
+        {
+            id: 8,
+            nombre: 'Reloj Deportivo',
+            precio: 99.99,
+            imagen: 'url_de_imagen_reloj_deportivo'
+        },
+        {
+            id: 9,
+            nombre: 'Gafas de Sol',
+            precio: 29.99,
+            imagen: 'url_de_imagen_gafas_sol'
+        },
+        {
+            id: 10,
+            nombre: 'Bufanda de Lana',
+            precio: 24.99,
+            imagen: 'url_de_imagen_bufanda_lana'
+        }
 
         // Agrega más productos según sea necesario
     ];
 
     return (
-        <div className="product-container">
-            <h1>Productos Disponibles</h1>
-            <div className="productos-list">
+
+        <div className="productos">
+            <h1 className="productos-title">Productos</h1>
+            <div className="product-list">
                 {productos.map(producto => (
                     <ProductCard
                         key={producto.id}
@@ -57,6 +82,7 @@ const Productos = () => {
                 ))}
             </div>
         </div>
+
     );
 };
 
