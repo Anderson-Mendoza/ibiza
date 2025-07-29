@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
+import imagenPrueba2 from '../assets/images/imagen-prueba2.jpg';
 
 const Productos = () => {
     const productos = [
@@ -7,61 +8,73 @@ const Productos = () => {
             id: 1,
             nombre: 'Camiseta Básica',
             precio: 19.99,
-            imagen: 'url_de_imagen_camiseta_básica'
+            imagen: imagenPrueba2
         },
         {
             id: 2,
             nombre: 'Jeans Ajustados',
             precio: 39.99,
-            imagen: 'url_de_imagen_jeans_ajustados'
+            imagen: imagenPrueba2
         },
         {
             id: 3,
             nombre: 'Chaqueta de Cuero',
             precio: 89.99,
-            imagen: 'url_de_imagen_chaqueta_cuero'
+            imagen: imagenPrueba2
         },
         {
             id: 4,
             nombre: 'Sudadera con Capucha',
             precio: 49.99,
-            imagen: 'url_de_imagen_sudadera_capucha'
+            imagen: imagenPrueba2
         },
         {
             id: 5,
             nombre: 'Zapatos Deportivos',
             precio: 79.99,
-            imagen: 'url_de_imagen_zapatos_deportivos'
+            imagen: imagenPrueba2
         },
         {
             id: 6,
             nombre: 'Bolso de Mano',
             precio: 59.99,
-            imagen: 'url_de_imagen_bolso_mano'
+            imagen: imagenPrueba2
         },
         {
             id: 7,
             nombre: 'Bolso de Mano',
             precio: 59.99,
-            imagen: 'url_de_imagen_bolso_mano'
+            imagen: imagenPrueba2
         },
         {
             id: 8,
             nombre: 'Reloj Deportivo',
             precio: 99.99,
-            imagen: 'url_de_imagen_reloj_deportivo'
+            imagen: imagenPrueba2
         },
         {
             id: 9,
             nombre: 'Gafas de Sol',
             precio: 29.99,
-            imagen: 'url_de_imagen_gafas_sol'
+            imagen: imagenPrueba2
         },
         {
             id: 10,
             nombre: 'Bufanda de Lana',
             precio: 24.99,
-            imagen: 'url_de_imagen_bufanda_lana'
+            imagen: imagenPrueba2
+        },
+        {
+            id: 11,
+            nombre: 'Bufanda de Lana',
+            precio: 24.99,
+            imagen: imagenPrueba2
+        },
+        {
+            id: 12,
+            nombre: 'Bufanda de Lana',
+            precio: 24.99,
+            imagen: imagenPrueba2
         }
 
         // Agrega más productos según sea necesario

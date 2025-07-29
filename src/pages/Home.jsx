@@ -2,39 +2,47 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
+import imagenPrueba from '../assets/images/imagen-prueba.jpg'; // Importa la imagen de prueba
 
 const Home = () => {
     const featuredProducts = [
         {
             id: 1,
-            name: 'Camiseta Básica',
-            price: 19.99,
-            image: 'url_de_imagen_camiseta_básica',
+            nombre: 'Camiseta Básica',
+            precio: 19.99,
+            imagen: imagenPrueba
         },
         {
             id: 2,
-            name: 'Jeans Ajustados',
-            price: 39.99,
-            image: 'url_de_imagen_jeans_ajustados',
+            nombre: 'Jeans Ajustados',
+            precio: 39.99,
+            imagen: imagenPrueba
         },
         {
             id: 3,
-            name: 'Chaqueta de Cuero',
-            price: 89.99,
-            image: 'url_de_imagen_chaqueta_cuero',
+            nombre: 'Chaqueta de Cuero',
+            precio: 89.99,
+            imagen: imagenPrueba
         },
         {
             id: 4,
-            name: 'Sudadera con Capucha',
-            price: 49.99,
-            image: 'url_de_imagen_sudadera_capucha',
+            nombre: 'Sudadera con Capucha',
+            precio: 49.99,
+            imagen: imagenPrueba
         },
         {
             id: 5,
-            name: 'Zapatos Deportivos',
-            price: 79.99,
-            image: 'url_de_imagen_zapatos_deportivos',
+            nombre: 'Zapatos Deportivos',
+            precio: 79.99,
+            imagen: imagenPrueba
         },
+        {
+            id: 6,
+            nombre: 'Zapatos Deportivos',
+            precio: 79.99,
+            imagen: imagenPrueba
+        },
+
     ];
 
     return (
@@ -44,9 +52,9 @@ const Home = () => {
                 {featuredProducts.map(product => (
                     <ProductCard
                         key={product.id}
-                        name={product.name}
-                        price={product.price}
-                        image={product.image}
+                        nombre={product.nombre}
+                        precio={product.precio}
+                        imagen={product.imagen}
                     />
                 ))}
             </div>

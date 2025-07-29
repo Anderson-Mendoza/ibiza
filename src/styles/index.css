@@ -8,6 +8,7 @@ h1,
 h2,
 h3 {
   color: #333;
+  margin: 10px 0px 0px 35px;
 }
 
 a {
@@ -50,7 +51,7 @@ a:hover {
   transition: transform 0.2s;
   box-sizing: border-box; /* Incluye padding y border en el tamaño */
   width: calc(31%); /* Ajusta el ancho para tres columnas */
-  height: 300px; /* Ajusta la altura de las tarjetas */
+  height: auto; /* Ajusta la altura de las tarjetas */
 }
 
 .product-list {
@@ -65,8 +66,11 @@ a:hover {
 }
 
 .product-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%; /* La imagen ocupará todo el ancho de la tarjeta */
+  height: 200px; /* Ajusta la altura según el diseño deseado */
+  border-radius: 5px; /* Mantén las esquinas redondeadas */
+  object-fit: cover; /* Ajusta la imagen para que llene el espacio sin deformarse */
+  display: block;
 }
 
 .product-name {
