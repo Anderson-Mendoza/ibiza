@@ -46,7 +46,7 @@ const Home = () => {
     ];
 
     return (
-        <div>
+        <div className='product'>
             <h1>Productos Destacados</h1>
             <div className="product-list">
                 {featuredProducts.map(product => (
